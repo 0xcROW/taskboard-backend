@@ -25,6 +25,10 @@ let doc = {
     servers: [{
         url: 'http://localhost:3000',
         description: 'Servidor Local'
+    },
+    {
+        url: 'https://back-board-dimi-dev.vercel.app/',
+        description: 'Servidor de Produção'
     }],
     consumes: ['application/json'],
     produces: ['application/json'],
